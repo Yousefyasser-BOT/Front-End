@@ -1,0 +1,320 @@
+body{
+margin: 0;
+padding: 0;
+background-color: white;
+}
+.nav{
+width: 100%;
+height: 7%;
+background-color: white;
+
+
+
+
+}
+.input{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: end;
+     position: relative;
+     top: 20px;
+     
+ 
+    
+
+}
+
+.input input{
+    width: 6%;
+    height: 80%;
+    border: 2px solid #717cff;
+    border-radius: 20px;
+    
+    text-align: center;
+
+    color: #717cff;
+background-color: rgba(255, 255, 255, 0.7);
+
+
+}
+.title h2{
+    color: #717cff;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.parent1{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.title1{
+    width: 3%;
+    height: 92%;
+    color: #717cff;
+    align-self: center;
+    
+    align-items: end;
+    position: relative;
+    left: 50px;
+
+}
+.title1 h2{
+    width: 50vh;
+
+    color: black;
+    font-size: 66px;
+}
+.title1 p{
+    color: gray;
+   width: 360px;
+   height: 50px;
+     font-size: 15px; 
+}
+.img1{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.img1 img{
+    width: 100%;
+    align-self: flex-start;
+}
+ .parent_input{
+    width: 100%;
+    height: 160vh;
+ display: flex;
+ flex-direction: row-reverse;
+ align-items: center;
+ justify-content: space-evenly;
+ position: relative;
+ right: 180px;
+ 
+ 
+} 
+.parent_input input{
+    width: 200px;
+    height: 47px;
+    border: 1px solid #717cff;
+    border-radius: 20px;
+    text-align: center;
+    align-content: flex-end;
+
+    
+
+}
+.parent2{
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    align-items:  center;
+    position: absolute;
+    left: 50px;
+}
+.img2{
+    width: 90%;
+    height: 20%;
+
+}
+.img2 img{
+    width: 100vh;
+}
+.caption{
+    width: 40vh;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 300px;
+
+    
+}
+.caption h2{
+    width: 48vh;
+    
+
+    color: black;
+    font-size: 55px;
+}
+.caption p{
+    color: gray;
+   width: 360px;
+   height: 350px;
+     font-size: 15px;
+}
+.input2{
+    width: 100vh;
+    height: 120vh;
+ display: flex;
+ align-items: flex-end;
+ position: relative;
+  left: 0px; 
+ 
+ 
+ 
+} 
+.input2 input{
+    width: 340px;
+    height: 47px;
+    border: 1px solid #717cff;
+    border-radius: 20px;
+    text-align: center;
+    align-content: flex-end;
+
+    
+}
+.parent3{
+width: 200vh;
+height: 400vh;
+display: flex;
+align-content: center;
+flex-wrap: wrap;
+
+}
+.part-one{
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20%;
+}
+
+.text-one{
+    width: 30%;
+    margin: 20px;
+
+}
+
+.headings {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+
+.logos {
+     position: relative; 
+
+}
+
+.playstore{
+    position:absolute;
+     top: -20px;
+    
+    left: 20px;
+}
+.apple{
+    position: absolute;
+    top: -10px;
+}
+.part-one img{
+    display: flex;
+}
+
+.part-two{
+    width: 200vh;
+    height: 120vh;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 10%;
+    position: relative;
+    left: 50px;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.column-one{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.img-one{
+    width: 88px;
+    height: 88px;
+}
+.img-two{
+    align-self: center; 
+    width: 63px;
+    height: 63px; 
+}
+
+.img-three{
+    width: 73px;
+    height: 65px;
+}
+
+
+.column-two{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+
+.img-four{
+    width: 88px;
+    height: 88px;
+}
+.img-five{
+    
+    align-self: center;
+}
+
+.img-six{
+    width: 73px;
+    height: 65px;
+}
+
+.text-two {
+    width: 50%;
+    text-align: center;
+}
+
+.number{
+    margin-top: 40px;
+    color: darkorchid;
+    font-size: 100px;
+    font-weight: lighter;
+}
+footer{
+    width: 100vh;
+   position: relative;
+   left: 50px;
+}
+.part-three{
+    height: 24vh;
+   text-align: center; 
+   margin-bottom: 10%;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-one button{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 200px;
+    color: grey;  
+}
+
+.button-two button{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    color: grey;  
+    margin-left: 30px;
+}
